@@ -220,12 +220,12 @@ function App() {
           {!loader && sentimentResponse && (sentimentResponse || []).map((response) => {
             return(
               <>
-               <p><a href={`https://twitter.com/user/status/${response.id}`}>{response.tweet}</a></p>
+               <p>{response.tweet}</p>
               </>
               )
           } )}
         </Col>
-        <Col md={3} sm={12} className="pt-sm-5">
+        <Col md={3} sm={12}>
           <div>
             <h3>Covid Cases</h3>
             <p>Total Cases: {statDetails.total}</p>
