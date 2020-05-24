@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f1489fbd7143d6cef3676c624210e9c",
+    "revision": "7d0d87b7f7293ed9a24ad801e3de4827",
     "url": "/web-sentiment-analysis/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-sentiment-analysis/static/css/2.d61b5d69.chunk.css"
   },
   {
-    "revision": "80610dff112cbd27db2f",
+    "revision": "4e180acbc0465a5ec49e",
     "url": "/web-sentiment-analysis/static/css/main.14b913c6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/web-sentiment-analysis/static/js/2.a4457c25.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "80610dff112cbd27db2f",
-    "url": "/web-sentiment-analysis/static/js/main.a3232d0c.chunk.js"
+    "revision": "4e180acbc0465a5ec49e",
+    "url": "/web-sentiment-analysis/static/js/main.7a6bb80a.chunk.js"
   },
   {
     "revision": "c82880e7dde8a7e1510f",
