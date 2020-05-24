@@ -118,12 +118,14 @@ function App() {
           })}
         </Col>
         <Col md={6} sm={12} className="mb-sm-5">
+          <p className="text-center font-weight-bold">Search a keyword to get Word Cloud of sentiments</p>
           <Form >
             <FormGroup>
               <Input name="searchKeyword" className="search" placeholder="Enter keyword to search" onChange={handleInput}/>
             </FormGroup>
             <Button onClick={getSentimentData} className='ml-1'>Submit</Button>
           </Form>
+
           <div className="text-center pt-5">
             <Loader
               type="Circles"
@@ -139,8 +141,8 @@ function App() {
               <img src={Sentiment} className="w-75" />
             </div>
           )}
-
-          {positiveWordCloud.length > 0 && (
+          {console.log(positiveWordCloud.length)}
+          {!loader && positiveWordCloud.length > 0 && (
             <>
               <h4>Positive Word Cloud</h4>
               <TagCloud
@@ -163,7 +165,7 @@ function App() {
 
           )
          }
-          { neutralWordCloud.length > 0 && (
+          {!loader && neutralWordCloud.length > 0 && (
             <>
               <h4>Neutral Word Cloud</h4>
               <TagCloud
@@ -187,7 +189,7 @@ function App() {
 
           )
           }
-          {negativeWordCloud.length > 0 && (
+          {!loader && negativeWordCloud.length > 0 && (
             <>
               <h4>Negative Word Cloud</h4>
               <TagCloud
@@ -211,7 +213,7 @@ function App() {
           )
           }
 
-          {sentimentResponse.length > 1 && (
+          {!loader && sentimentResponse.length > 1 && (
             <>
               <hr/>
               <h3>Top retweet for {searchKeyword}</h3>
