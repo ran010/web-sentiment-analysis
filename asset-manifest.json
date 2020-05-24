@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tweet-sentiment-analysis/static/css/main.14b913c6.chunk.css",
+    "main.js": "/tweet-sentiment-analysis/static/js/main.4328157e.chunk.js",
+    "main.js.map": "/tweet-sentiment-analysis/static/js/main.4328157e.chunk.js.map",
+    "runtime-main.js": "/tweet-sentiment-analysis/static/js/runtime-main.07126a18.js",
+    "runtime-main.js.map": "/tweet-sentiment-analysis/static/js/runtime-main.07126a18.js.map",
+    "static/css/2.d61b5d69.chunk.css": "/tweet-sentiment-analysis/static/css/2.d61b5d69.chunk.css",
+    "static/js/2.11a7be02.chunk.js": "/tweet-sentiment-analysis/static/js/2.11a7be02.chunk.js",
+    "static/js/2.11a7be02.chunk.js.map": "/tweet-sentiment-analysis/static/js/2.11a7be02.chunk.js.map",
+    "index.html": "/tweet-sentiment-analysis/index.html",
+    "precache-manifest.906a82c22ebacf123c455f3d9972c285.js": "/tweet-sentiment-analysis/precache-manifest.906a82c22ebacf123c455f3d9972c285.js",
+    "service-worker.js": "/tweet-sentiment-analysis/service-worker.js",
+    "static/css/2.d61b5d69.chunk.css.map": "/tweet-sentiment-analysis/static/css/2.d61b5d69.chunk.css.map",
+    "static/css/main.14b913c6.chunk.css.map": "/tweet-sentiment-analysis/static/css/main.14b913c6.chunk.css.map",
+    "static/js/2.11a7be02.chunk.js.LICENSE.txt": "/tweet-sentiment-analysis/static/js/2.11a7be02.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07126a18.js",
+    "static/css/2.d61b5d69.chunk.css",
+    "static/js/2.11a7be02.chunk.js",
+    "static/css/main.14b913c6.chunk.css",
+    "static/js/main.4328157e.chunk.js"
+  ]
+}

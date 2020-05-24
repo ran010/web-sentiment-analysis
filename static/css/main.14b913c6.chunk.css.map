@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,QACE,SAAU,CACV,oBAAqB,CACrB,UACF","file":"main.14b913c6.chunk.css","sourcesContent":[".search {\n  width: 75%;\n  display: inline-block;\n  float: left;\n}\n"]}
