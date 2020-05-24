@@ -142,7 +142,7 @@ function App() {
 
           {positiveWordCloud.length > 0 && (
             <>
-              <h4>Positive WordCoud</h4>
+              <h4>Positive Word Cloud</h4>
               <TagCloud
                 style={{
                   fontFamily: 'sans-serif',
@@ -165,7 +165,7 @@ function App() {
          }
           { neutralWordCloud.length > 0 && (
             <>
-              <h4>Neutral WordCoud</h4>
+              <h4>Neutral Word Cloud</h4>
               <TagCloud
                 style={ {
                   fontFamily: 'sans-serif',
@@ -189,7 +189,7 @@ function App() {
           }
           {negativeWordCloud.length > 0 && (
             <>
-              <h4>Negative WordCoud</h4>
+              <h4>Negative Word Cloud</h4>
               <TagCloud
                 style={{
                   fontFamily: 'sans-serif',
