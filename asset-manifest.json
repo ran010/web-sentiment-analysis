@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/web-sentiment-analysis/static/css/main.14b913c6.chunk.css",
-    "main.js": "/web-sentiment-analysis/static/js/main.881f1ab3.chunk.js",
-    "main.js.map": "/web-sentiment-analysis/static/js/main.881f1ab3.chunk.js.map",
-    "runtime-main.js": "/web-sentiment-analysis/static/js/runtime-main.717a041d.js",
-    "runtime-main.js.map": "/web-sentiment-analysis/static/js/runtime-main.717a041d.js.map",
-    "static/css/2.d61b5d69.chunk.css": "/web-sentiment-analysis/static/css/2.d61b5d69.chunk.css",
-    "static/js/2.11a7be02.chunk.js": "/web-sentiment-analysis/static/js/2.11a7be02.chunk.js",
-    "static/js/2.11a7be02.chunk.js.map": "/web-sentiment-analysis/static/js/2.11a7be02.chunk.js.map",
-    "index.html": "/web-sentiment-analysis/index.html",
-    "precache-manifest.a15ad3251004d711906d1bb4d5f3eba4.js": "/web-sentiment-analysis/precache-manifest.a15ad3251004d711906d1bb4d5f3eba4.js",
-    "service-worker.js": "/web-sentiment-analysis/service-worker.js",
-    "static/css/2.d61b5d69.chunk.css.map": "/web-sentiment-analysis/static/css/2.d61b5d69.chunk.css.map",
-    "static/css/main.14b913c6.chunk.css.map": "/web-sentiment-analysis/static/css/main.14b913c6.chunk.css.map",
-    "static/js/2.11a7be02.chunk.js.LICENSE.txt": "/web-sentiment-analysis/static/js/2.11a7be02.chunk.js.LICENSE.txt"
+    "main.css": "/tweet-sentiment-analysis/static/css/main.14b913c6.chunk.css",
+    "main.js": "/tweet-sentiment-analysis/static/js/main.bf8a396d.chunk.js",
+    "main.js.map": "/tweet-sentiment-analysis/static/js/main.bf8a396d.chunk.js.map",
+    "runtime-main.js": "/tweet-sentiment-analysis/static/js/runtime-main.07126a18.js",
+    "runtime-main.js.map": "/tweet-sentiment-analysis/static/js/runtime-main.07126a18.js.map",
+    "static/css/2.d61b5d69.chunk.css": "/tweet-sentiment-analysis/static/css/2.d61b5d69.chunk.css",
+    "static/js/2.a4457c25.chunk.js": "/tweet-sentiment-analysis/static/js/2.a4457c25.chunk.js",
+    "static/js/2.a4457c25.chunk.js.map": "/tweet-sentiment-analysis/static/js/2.a4457c25.chunk.js.map",
+    "index.html": "/tweet-sentiment-analysis/index.html",
+    "precache-manifest.8794e2ce7875987eb7cbb2884489dbc3.js": "/tweet-sentiment-analysis/precache-manifest.8794e2ce7875987eb7cbb2884489dbc3.js",
+    "service-worker.js": "/tweet-sentiment-analysis/service-worker.js",
+    "static/css/2.d61b5d69.chunk.css.map": "/tweet-sentiment-analysis/static/css/2.d61b5d69.chunk.css.map",
+    "static/css/main.14b913c6.chunk.css.map": "/tweet-sentiment-analysis/static/css/main.14b913c6.chunk.css.map",
+    "static/js/2.a4457c25.chunk.js.LICENSE.txt": "/tweet-sentiment-analysis/static/js/2.a4457c25.chunk.js.LICENSE.txt",
+    "static/media/sentiments.png": "/tweet-sentiment-analysis/static/media/sentiments.4616171a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.717a041d.js",
+    "static/js/runtime-main.07126a18.js",
     "static/css/2.d61b5d69.chunk.css",
-    "static/js/2.11a7be02.chunk.js",
+    "static/js/2.a4457c25.chunk.js",
     "static/css/main.14b913c6.chunk.css",
-    "static/js/main.881f1ab3.chunk.js"
+    "static/js/main.bf8a396d.chunk.js"
   ]
 }
