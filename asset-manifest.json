@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/web-sentiment-analysis/static/css/main.14b913c6.chunk.css",
-    "main.js": "/web-sentiment-analysis/static/js/main.7a6bb80a.chunk.js",
-    "main.js.map": "/web-sentiment-analysis/static/js/main.7a6bb80a.chunk.js.map",
+    "main.js": "/web-sentiment-analysis/static/js/main.1c39528c.chunk.js",
+    "main.js.map": "/web-sentiment-analysis/static/js/main.1c39528c.chunk.js.map",
     "runtime-main.js": "/web-sentiment-analysis/static/js/runtime-main.717a041d.js",
     "runtime-main.js.map": "/web-sentiment-analysis/static/js/runtime-main.717a041d.js.map",
     "static/css/2.d61b5d69.chunk.css": "/web-sentiment-analysis/static/css/2.d61b5d69.chunk.css",
     "static/js/2.a4457c25.chunk.js": "/web-sentiment-analysis/static/js/2.a4457c25.chunk.js",
     "static/js/2.a4457c25.chunk.js.map": "/web-sentiment-analysis/static/js/2.a4457c25.chunk.js.map",
     "index.html": "/web-sentiment-analysis/index.html",
-    "precache-manifest.2bda0ee9ff31fc569c7936490a224b3e.js": "/web-sentiment-analysis/precache-manifest.2bda0ee9ff31fc569c7936490a224b3e.js",
+    "precache-manifest.a6761daa37372a2fa112115a17612a32.js": "/web-sentiment-analysis/precache-manifest.a6761daa37372a2fa112115a17612a32.js",
     "service-worker.js": "/web-sentiment-analysis/service-worker.js",
     "static/css/2.d61b5d69.chunk.css.map": "/web-sentiment-analysis/static/css/2.d61b5d69.chunk.css.map",
     "static/css/main.14b913c6.chunk.css.map": "/web-sentiment-analysis/static/css/main.14b913c6.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d61b5d69.chunk.css",
     "static/js/2.a4457c25.chunk.js",
     "static/css/main.14b913c6.chunk.css",
-    "static/js/main.7a6bb80a.chunk.js"
+    "static/js/main.1c39528c.chunk.js"
   ]
 }
