@@ -107,7 +107,7 @@ function App() {
     <Container>
       <TextScroller text="Stay Safe" />
       <Row>
-        <Col md={3}>
+        <Col md={3} sm={12}>
           <h3>Trending Topics</h3>
           {(trendingData || []).map((data) => {
             return(
@@ -117,7 +117,7 @@ function App() {
             )
           })}
         </Col>
-        <Col md={6}>
+        <Col md={6} sm={12} className="mb-sm-5">
           <Form >
             <FormGroup>
               <Input name="searchKeyword" className="search" placeholder="Enter keyword to search" onChange={handleInput}/>
@@ -152,7 +152,7 @@ function App() {
                   color: () => randomColor(),
                   padding: 5,
                   width: '100%',
-                  height: '100%'
+                  height: '400px'
                 }}>
                 {positiveWordCloud.map((x) => {
                   return (<div>{x}</div>)
@@ -175,18 +175,18 @@ function App() {
                   color: () => randomColor(),
                   padding: 5,
                   width: '100%',
-                  height: '100%'
+                  height: '400px'
                 } }>
                 { neutralWordCloud.map((x) => {
                   return (<div>{ x }</div>)
                 }) }
 
               </TagCloud>
+              <hr/>
             </>
 
           )
           }
-          {console.log(negativeWordCloud)}
           {negativeWordCloud.length > 0 && (
             <>
               <h4>Negative WordCoud</h4>
@@ -199,12 +199,13 @@ function App() {
                   color: () => randomColor(),
                   padding: 5,
                   width: '100%',
-                  height: '100%'
+                  height: '400px'
                 }}>
                 {negativeWordCloud.map((x) => {
                   return (<div>{x}</div>)
                 })}
               </TagCloud>
+              <hr/>
             </>
 
           )
@@ -212,7 +213,7 @@ function App() {
 
           {sentimentResponse.length > 1 && (
             <>
-              <h4/>
+              <hr/>
               <h3>Top retweet for {searchKeyword}</h3>
             </>
           )}
@@ -224,17 +225,13 @@ function App() {
               )
           } )}
         </Col>
-        <Col md={3}>
+        <Col md={3} sm={12} className="pt-sm-5">
           <div>
             <h3>Covid Cases</h3>
             <p>Total Cases: {statDetails.total}</p>
             <p>Total Death: {statDetails.death}</p>
             <p>Total Recovered: {statDetails.recovered}</p>
           </div>
-          <a className="twitter-timeline"
-             href="https://twitter.com/TwitterDev/timelines/539487832448843776?ref_src=twsrc%5Etfw">National
-            Park Tweets - Curated tweets by TwitterDev</a>
-          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
         </Col>
       </Row>
     </Container>
